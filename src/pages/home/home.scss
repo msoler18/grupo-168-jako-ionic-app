@@ -1,14 +1,24 @@
 page-home {
+
+  .scroll-content{
+    overflow: hidden;
+  }
+
   ion-content{
     background-image:url('../assets/imgs/home_background_app_3.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    overflow:hidden;
   }
 
   .text-light{
     vertical-align: middle;
     line-height: 980px;
     text-align: center;
+  }
+
+  .wrapper-btns-home{
+
   }
 }
