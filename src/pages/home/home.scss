@@ -14,11 +14,18 @@ page-home {
 
   .text-light{
     vertical-align: middle;
-    line-height: 980px;
+    line-height: 940px;
     text-align: center;
   }
 
   .wrapper-btns-home{
+    position: relative;
+    bottom: 340px;
+    display: table;
+    margin:0 auto;
+  }
 
+  .btn-home{
+    display: inline-block;
   }
 }
