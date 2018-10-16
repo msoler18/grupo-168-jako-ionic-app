@@ -8,11 +8,14 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { SingUpPage } from '../pages/sing-up/sing-up';
 
+import { SimplenavComponent } from '../components/simplenav/simplenav';
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    SingUpPage
+    SingUpPage,
+    SimplenavComponent
   ],
   imports: [
     BrowserModule,
