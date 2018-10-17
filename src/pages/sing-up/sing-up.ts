@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the SingUpPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { RegisterUserPage } from '../register-user/register-user';
+
 
 @IonicPage()
 @Component({
@@ -16,10 +12,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class SingUpPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad SingUpPage');
-  }
+  loadFormUser(){
+    this.navCtrl.setRoot(RegisterUserPage);
+  }  
 
 }

@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { SingUpPage } from '../pages/sing-up/sing-up';
+import { RegisterUserPage } from '../pages/register-user/register-user';
 
 import { SimplenavComponent } from '../components/simplenav/simplenav';
 
@@ -15,6 +16,7 @@ import { SimplenavComponent } from '../components/simplenav/simplenav';
     MyApp,
     HomePage,
     SingUpPage,
+    RegisterUserPage,
     SimplenavComponent
   ],
   imports: [
@@ -25,7 +27,8 @@ import { SimplenavComponent } from '../components/simplenav/simplenav';
   entryComponents: [
     MyApp,
     HomePage,
-    SingUpPage
+    SingUpPage,
+    RegisterUserPage
   ],
   providers: [
     StatusBar,
